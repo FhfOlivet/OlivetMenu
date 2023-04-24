@@ -3,7 +3,7 @@ body {
     background-color: #fffdf3;
     margin: 0;
     padding: 0;
-    font-family: 'Tahoma';
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 75px;
                                         
    }
@@ -13,7 +13,7 @@ body {
     margin-right: auto;  
     border: none;    
     text-align: center;  
-    font-size: 16px; 
+    font-size: 18px; 
     }
 
     table {
@@ -29,7 +29,7 @@ body {
     }
 
     th {
-        width: 60px;
+        width: 65px;
         padding-top: 25px;
     }
 
@@ -39,7 +39,7 @@ body {
     }
 
     .sml {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .flavours {
