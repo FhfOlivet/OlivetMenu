@@ -71,7 +71,7 @@ body {
 
 @media only screen and (max-width: 720px) {
     .container {
-        width: 95%;
+        width: 98%;
     }
     .row {
         font-size: 1.125em;
