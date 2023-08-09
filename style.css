@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+*, *::after, *::before {
+    block-size: border-box;
+}
+
+body {
+    background-image: url("background.png");
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    max-width: 720px;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.header {
+    text-align: center;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.row div {
+    text-align: center;
+    width: 12%;
+    padding: .125em;
+}
+
+.row .extras {
+    width: 38%;
+}
+
+.row div:first-child {
+    width: 64%;
+}
+
+.size {
+    font-size: .75em;
+}
+
+.container p {
+    margin: 0;
+    padding: .125em;
+    text-align: center;
+    font-size: 1em;
+}
+
+.kids {
+    font-family: 'Caveat', cursive;
+    font-size: 2.75em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    .row {
+        font-size: 1.125em;
+    } 
+    .container p {
+        font-size: .875em;
+    }   
+}
