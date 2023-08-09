@@ -40,16 +40,16 @@ body {
 
 .row div {
     text-align: center;
-    width: 13%;
+    width: 14%;
     padding: .125em;
 }
 
 .row .extras {
-    width: 37%;
+    width: 36%;
 }
 
 .row div:first-child {
-    width: 61%;
+    width: 58%;
 }
 
 .size {
@@ -80,6 +80,6 @@ body {
         font-size: .875em;
     }
     .size {
-        font-size: .7em;
+        font-size: .685em;
     }
 }
