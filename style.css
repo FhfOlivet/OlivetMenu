@@ -44,10 +44,6 @@ body {
     padding: .125em;
 }
 
-.row .extras {
-    width: 36%;
-}
-
 .row div:first-child {
     width: 58%;
 }
