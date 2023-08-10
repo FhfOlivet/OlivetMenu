@@ -5,12 +5,14 @@
 }
 
 body {
-    background-image: url("background.png");
+    background-image: linear-gradient(to right, #ebe6d9, #FFFDF3, #FFFDF3, #ebe6d9);
+    /*background-color: #EBE6D9;*/
     justify-content: center;
     font-family: 'Roboto', sans-serif;
 }
 
 .container {
+    background-image: url("background.png");
     margin: auto;
     width: 80%;
     max-width: 720px;
@@ -65,7 +67,7 @@ body {
 }
 
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 620px) {
     .container {
         width: 98%;
     }
