@@ -15,7 +15,7 @@ body {
     background-image: url("background.png");
     margin: auto;
     width: 80%;
-    max-width: 720px;
+    max-width: 1024px;
 }
 
 .logo {
