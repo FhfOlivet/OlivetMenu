@@ -18,6 +18,17 @@ body {
     max-width: 1024px;
 }
 
+.picture {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.picture img {
+    width: 100%;
+}
+
 .logo {
     width: 200px;
     display: block;
@@ -69,7 +80,7 @@ body {
 
 @media only screen and (max-width: 620px) {
     .container {
-        width: 98%;
+        width: 95%;
     }
     .row {
         font-size: 1.125em;
