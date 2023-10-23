@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto:wght@300;400;500&display=swap');
 
 *, *::after *::before {
     box-sizing: border-box;
@@ -25,6 +25,10 @@ body h1 {
     margin: 5px auto;
     font-family: 'Belleza', sans-serif;
     text-align: center;
+}
+
+.kids {
+    font-family: 'Architects Daughter', cursive;
 }
 
 .section {
